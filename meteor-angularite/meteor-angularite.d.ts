@@ -10,7 +10,7 @@ interface AngulariteStatic {
     module(name:string, deps:string[]): ng.IModule;
 }
 
-module ng {
+declare module ng {
     interface IModule {
         setTemplateDelimeter(start:string, end:string): void;
     }
