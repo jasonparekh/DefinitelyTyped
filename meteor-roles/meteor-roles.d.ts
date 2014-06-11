@@ -5,7 +5,7 @@
 
 /// <reference path="../meteor/meteor.d.ts" />
 
-interface RolesStatic {
+interface IMeteorRoles {
     GLOBAL_GROUP: string;
 
     addUsersToRoles(users:string[], roles:string[], group?:string): void;
@@ -51,5 +51,5 @@ interface RolesStatic {
     userIsInRole(user:IMeteorUser, roles:string[], group?:string);
 }
 
-declare var Roles:RolesStatic;
+declare var Roles:IMeteorRoles;
 
