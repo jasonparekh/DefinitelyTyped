@@ -1,5 +1,5 @@
-// Type definitions for meteor-angularite v0.1.2
-// Project: https://github.com/ccll/meteor-angularite/
+// Type definitions for meteor-roles v1.2.6
+// Project: https://github.com/alanning/meteor-roles/
 // Definitions by: Jason Parekh <https://github.com/jasonparekh>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
